@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 2rem;
 }
 
 .App-logo {
@@ -28,6 +29,32 @@
   color: #61dafb;
 }
 
+img {
+  margin: 2%;
+  width: 20%;
+  cursor: pointer;
+}
+.form{
+  width: 50%
+}
+.input{
+  margin: 2% 0;
+}
+input{
+  padding: 3%;
+  width: 80%;
+}
+button{
+  padding: 3%;
+  background-color: #004578;
+  color: white;
+  border-color: #004578;
+  cursor: pointer;
+  box-shadow: none;
+  border-style: none;
+  border: 3px solid #004578;
+  margin: 2%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
